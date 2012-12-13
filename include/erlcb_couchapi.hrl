@@ -1,6 +1,6 @@
 %% @doc couchapi query and response definitions
 
--record(viw_query,{
+-record(view_query,{
 	spatial = false :: 'true' | 'false' ,
 	descending :: boolean(),
 	endkey :: binary() | list(binary()),
