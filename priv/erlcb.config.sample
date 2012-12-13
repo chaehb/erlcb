@@ -1,0 +1,18 @@
+%%-*- mode: erlang -*-
+%% if using rebar, put config file to your project's 'priv' directory
+[
+	{
+		couchbase_production, %% this connection's unique id
+		"http://your.host.address:8091",
+		"bucket_name",
+		"bucket_passord",
+		production
+	},
+	{
+		couchbase_development,
+		"http://localhost:8091",
+		"default",
+		"",
+		development
+	}
+].

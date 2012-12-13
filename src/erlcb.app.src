@@ -1,0 +1,13 @@
+%%-*- mode: erlang -*-
+{application, erlcb,
+ [
+  {description, "Couchbase Erlang native client"},
+  {vsn, "0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erlcb_app, []}},
+  {env, []}
+ ]}.
