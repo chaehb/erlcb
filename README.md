@@ -36,6 +36,6 @@ Couchbase Extensions
 =============================================
 Simple Usage
 ===
-  [See my blog post][1]
+  [See Wiki Page][1]
   
-[1]: http://my-erlang.blogspot.kr/2012/12/erlcb-usages-couchbase-client-for-erlang.html
+[1]: https://github.com/chaehb/erlcb/wiki/SimpleUsage
