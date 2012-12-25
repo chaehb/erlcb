@@ -18,7 +18,7 @@ TODO
 Memcached
 - increment/decrement
 - append/prepend
-- state
+- stat
 
 Couchbase Extensions
 - CMD_STOP_PERSISTENCE
@@ -33,6 +33,7 @@ Couchbase Extensions
 - CMD_EVICT_KEY
 - Observe (0x92-Couchbase 2.0)
 
+=============================================
 Simple Usage
   [See my blog post][1]
   
